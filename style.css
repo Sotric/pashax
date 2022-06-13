@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: rgb(115, 0, 255);
+  font-size: 1.2rem;
+}
+
+img {
+  width: 100%;
+  max-width: 444px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+ul {
+  background-color: rgba(255, 221, 1, 0.285);
+  margin-right: 67%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.like_h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-top: 0.1em;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.important_link {
+  font-size: 2rem;
+}
