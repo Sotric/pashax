@@ -1,14 +1,17 @@
+*,*:before,*:after { 
+  box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(71, 224, 140, 0.349);
 }
 
 a {
   color: rgb(115, 0, 255);
-  font-size: 1.2rem;
 }
 
 img {
-  width: 100%;
   max-width: 444px;
 }
 
@@ -18,9 +21,10 @@ p {
 
 ul {
   background-color: rgba(255, 221, 1, 0.285);
-  margin-right: 67%;
+  margin-right: 50%;
   padding-top: 5px;
   padding-bottom: 5px;
+  font-size: 1.2rem;
 }
 
 .like_h1 {
