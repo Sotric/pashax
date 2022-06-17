@@ -3,16 +3,16 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(71, 224, 140, 0.349);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(12, 147, 55, 0.532);
 }
 
 a {
-  color: rgb(115, 0, 255);
+  color: rgb(77, 55, 203);
 }
 
 img {
-  max-width: 444px;
+  max-width: 144px;
 }
 
 p {
@@ -35,10 +35,11 @@ ul {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.2rem;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .important_link {
-  font-size: 2rem;
+  font-size: 1.5rem;  
 }
