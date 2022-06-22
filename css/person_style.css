@@ -4,14 +4,23 @@
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgba(12, 147, 55, 0.532);
+    color: rgba(23, 67, 21, 0.992);
+    font-size: 16px;
+    background-color: rgba(249, 250, 233, 0.8);
 }
 
 a {
-  color: rgb(77, 55, 203);
+  color: rgb(108, 34, 148);
+  text-decoration: none;
 }
 
-img {
+a:hover {
+  letter-spacing: 0.44px;
+  color: blueviolet;
+}
+
+.avatar {
+  width: 100%;
   max-width: 144px;
 }
 
@@ -19,15 +28,24 @@ p {
   font-size: 1.5rem;
 }
 
-ul {
-  background-color: rgba(255, 221, 1, 0.285);
-  margin-right: 50%;
+.profile_links ul {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 600px;
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   font-size: 1.2rem;
+  box-shadow: 1mm 1mm 3mm 3px rgba(25, 73, 23, 0.492);
+  border-radius: 14px;
+  list-style: none;
+  border: 1px solid rgb(238, 245, 48);
 }
 
-.like_h1 {
+.hello {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.hello p {
   font-weight: bold;
   font-size: 3rem;
   margin-bottom: 0;
@@ -41,5 +59,37 @@ h1 {
 }
 
 .important_link {
-  font-size: 1.5rem;  
+  font-weight: 600;
+}
+
+.important_link ul {
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 888px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  box-shadow: 1mm 1mm 3mm 3px rgba(25, 73, 23, 0.492);
+  border-radius: 14px;
+  list-style: none;
+  max-width: 400px;
+  border: 1px solid rgb(238, 245, 48);
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  background-color: rgb(203, 250, 186);
+  padding: 2% 8%;
+  border-radius: 14px;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgba(23, 67, 21, 0.992);
+  padding: 20px 20px 0;
+  border-radius: 16px;
+  width: 550px;
+  box-shadow: 1mm 1mm 3mm 3px rgba(25, 73, 23, 0.492);
+  border: 1px solid rgb(238, 245, 48);
+  display: flex;
 }
