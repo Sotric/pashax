@@ -22,32 +22,36 @@
         </table>
     </header>
 
-    <hr>
-
+    <div class="discription">
         <p>В <a href="https://t.me/world_of_wallets">канале</a> публикуется много интересного и полезного: шеринг проектов, информация по ивентам, гайды и образовательный контент.</p>
 
-        <p>В планах по развитию постепенное масштабирование и создание постоянной команды.</p>
+        <p>В планах есть постепенное масштабирование деятельности и создание постоянной команды.</p>
+    </div>
 
-    <hr>
-        <h2>Форма для связи ⬇️</h2>
-    <form action="/">
-        <label for="telegram">Имя в телеграме:</label>
-        <br>
-        <input type="text" id="telegram" placeholder="@nickname">
-        
-        <br>
+        <div class="contact_form">
+            <h2>Форма для связи📝</h2>
+            <form action="/">
+            <div class="form_flex">
+                <div class="form_fields">
+                    <label for="telegram">Имя в телеграме:</label>
 
-        <label for="discord">Имя в дискорде:</label>
-        <br>
-        <input type="text" id="discord" placeholder="nickname#1234">
+                    <input type="text" id="telegram" placeholder="@nickname">
+                </div>
 
-        <br>
+                <div class="form_fields">            
+                    <label for="discord">Имя в дискорде:</label>
 
-        <label for="message">Сообщение:</label>
-        <br>
-        <textarea id="message" rows="5" cols="65"></textarea>
-        <br>
-        <input type="submit" value="Отправить">
-    </form>
+                    <input type="text" id="discord" placeholder="nickname#1234">
+                </div>
+            </div>    
+            <div class="form_fields">
+                <label for="message">Сообщение:</label>
+
+                <textarea id="message" rows="10" cols="111"></textarea>
+            </div>
+
+                <input class="btn" type="submit" value="Отправить">
+            </form>
+        </div>
 </body>
 </html>

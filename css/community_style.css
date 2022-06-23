@@ -10,30 +10,21 @@
   
   a {
     color: rgb(146, 24, 73);
+    text-decoration: none;
   }
   
+  a:hover {
+    text-decoration: underline;
+    color: rgba(252, 220, 80, 0.833);
+  }
   img {
     max-width: 111px;
   }
   
   p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   
-  ul {
-    background-color: rgba(255, 221, 1, 0.285);
-    margin-right: 50%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 1.2rem;
-  }
-  
-  .like_h1 {
-    font-weight: bold;
-    font-size: 3rem;
-    margin-bottom: 0;
-    margin-top: 1em;
-  }
   
   h1 {
     font-size: 2rem;
@@ -41,6 +32,78 @@
     margin-bottom: 0;
   }
   
-  .important_link {
-    font-size: 1.5rem;  
+  .contact_form {
+    padding: 10px 15px;
+  }
+
+  .btn:hover {
+    opacity: 0.9;
+  }
+
+  .btn {
+    padding: 4px 44px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(252, 220, 80, 0.575);
+    font-size: 1rem;
+    color: #0f141e;
+    cursor: pointer;
+  }
+
+  .form_fields textarea {
+    margin-bottom: 10px;
+  }
+
+  .form_fields label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+  }
+
+  .form_fields input,
+  .form_fields textarea {
+    border: none;
+    background: rgba(255, 236, 236, 0.538);
+    padding: 5px 5px 5px;
+    outline: none;
+    font-family: inherit;
+    color: #0f141e;
+    border-bottom: 1px solid rgba(252, 220, 80, 0.575);
+  }
+
+  .form_fields input {
+    width: 100%;
+  }
+
+  .form_flex {
+    display: flex;
+    margin-bottom: 10px;
+    max-width: 444px;
+  }
+
+  .form_flex > .form_fields {
+    width: 100%;
+  }
+
+  .form_flex > .form_fields:first-child {
+    margin-right: 5px;
+  }
+  
+  .discription {
+    background-color: rgba(252, 220, 80, 0.575);
+    padding: 10px 15px 10px;
+    border-radius: 4px;
+    margin: 0 15px;
+    max-width: 1100px;
+    border: 1px solid rgb(146, 24, 73); 
+  }
+
+  .discription a {
+    color: #0f141e;
+    text-decoration: underline;
+  }
+
+  .discription a:hover {
+    text-decoration: underline;
+    color: rgb(146, 24, 73);
   }
