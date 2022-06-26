@@ -5,8 +5,8 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgba(23, 67, 21, 0.992);
-    font-size: 16px;
-    background-color: rgba(249, 250, 233, 0.8);
+    font-size: 1.3rem;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 a {
@@ -20,12 +20,7 @@ a:hover {
 }
 
 .avatar {
-  width: 100%;
-  max-width: 144px;
-}
-
-p {
-  font-size: 1.5rem;
+  max-width: 122px;
 }
 
 .profile_links ul {
@@ -38,21 +33,22 @@ p {
   border-radius: 14px;
   list-style: none;
   border: 1px solid rgb(238, 245, 48);
+  max-width: 400px;
 }
 
 .hello {
-  margin-top: 40px;
-  margin-left: 20px;
+  text-align: center;
+  margin: auto;
 }
 
 .hello p {
   font-weight: bold;
   font-size: 3rem;
   margin-bottom: 0;
-  margin-top: 0.1em;
+  margin-top: 0em;
 }
 
-h1 {
+.hello h1 {
   font-size: 2.2rem;
   margin-top: 0;
   margin-bottom: 0;
@@ -75,20 +71,28 @@ h1 {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 900px;
   margin: auto;
   background-color: rgb(203, 250, 186);
-  padding: 2% 8%;
-  border-radius: 14px;
+  padding: 30px 100px;
+  
 }
 
 .header {
   background-color: rgba(255, 255, 255, 0.8);
   color: rgba(23, 67, 21, 0.992);
-  padding: 20px 20px 0;
+  padding: 15px 20px 0;
   border-radius: 16px;
-  max-width: 550px;
   box-shadow: 1mm 1mm 3mm 3px rgba(25, 73, 23, 0.492);
   border: 1px solid rgb(238, 245, 48);
   display: flex;
+  max-width: 600px;
+}
+
+@media (max-width: 700px) {
+  .header {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
 }
