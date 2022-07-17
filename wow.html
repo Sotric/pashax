@@ -9,49 +9,71 @@
     <link rel="stylesheet" href="css/community_style.css">
 </head>
 <body>
-    <header>
-        <table cellspacing="10">
-            <tr>
-                <td>
-                    <img src="./img/logo_icon.png" alt="world of wallets logo" width="222px">
-                </td>
-                <td>
-                    <h1>Добро пожаловать в <a href="https://t.me/world_of_wallets">World of Wallets</a>!</h1>
-                </td>
-            </tr>
-        </table>
-    </header>
-
-    <div class="discription">
-        <p>В <a href="https://t.me/world_of_wallets">канале</a> вы найдёте: шеринг проектов, новые ивенты, гайды и образовательный контент.</p>
-
-        <p>В планах есть постепенное масштабирование деятельности и создание постоянной команды.</p>
-    </div>
-
-        <div class="contact_form">
-            <h2>Форма для связи📝</h2>
-            <form action="/">
-            <div class="form_flex">
-                <div class="form_fields">
-                    <label for="telegram">Имя в телеграме:</label>
-
-                    <input type="text" id="telegram" placeholder="@nickname">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__top">
+                <div class="header__logo">
+                    <a href="/">
+                        <img src="./img/logo_icon.png" alt="world of wallets logo">
+                    </a>
                 </div>
-
-                <div class="form_fields">            
-                    <label for="discord">Имя в дискорде:</label>
-
-                    <input type="text" id="discord" placeholder="nickname#1234">
+                <div class="header__text">
+                    <h1><a href="https://t.me/world_of_wallets">World of Wallets</a></h1>
+                    <p>Congratulations! If you're reading this, you are very early</p>
                 </div>
-            </div>    
-            <div class="form_fields">
-                <label for="message">Сообщение:</label>
-
-                <textarea id="message" rows="12" cols="65"></textarea>
+                <div class="header__nav">
+                    <nav>
+                        <a href="https://t.me/world_of_wallets">Telegram</a>
+                        <a href="https://teletype.in/@worldofwallets">Teletype</a>
+                    </nav>
+                </div>
             </div>
+        </header>
+        <div class="wrapper_wrapper">
+            <div class="discription">
+                <div class="discription__text">
+                    <p>Обзор проектов, новые ивенты, образовательный контент, гайды, подборки, статьи и переводы — всё это для тебя.</p>
+                    <p>Но...</p>
+                    <p><a href="https://t.me/world_of_wallets">WoW</a> — история не только про крипту.</p>
+                    <br>
+                    <p>Переключи мысли на значимость своих задач. </p>
+                    <p>Мир вокруг — лаборатория, которая обеспечит всевозможными примерами человеческой деятельности.</p>
+                    <p>Стоит только почувствовать себя исследователем в собственной лаборатории, и ты сможешь достичь того, что кажется невозможным.</p>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="contact__form">
+                    <h2>Форма для связи</h2>
+                    <form action="/">
+                    <div class="form_flex">
+                        <div class="form_fields">
+                            <label for="telegram">Имя в телеграме:</label>
 
-                <input class="btn" type="submit" value="Отправить">
-            </form>
-        </div>
+                            <input type="text" id="telegram" placeholder="@nickname">
+                        </div>
+
+                        <div class="form_fields">            
+                            <label for="discord">Имя в дискорде:</label>
+
+                            <input type="text" id="discord" placeholder="nickname#1234">
+                        </div>
+                    </div>    
+                    <div class="form_fields">
+                        <label for="message">Сообщение:</label>
+
+                        <textarea id="message" rows="12" cols="65"></textarea>
+                    </div>
+
+                        <input class="btn" type="submit" value="Отправить">
+                    </form>
+                </div>
+            </div>
+        </div> 
+        <footer class="footer">
+            <div class="footer__content">
+            <p><a href="https://t.me/sotric">связаться</a> со мной</p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

@@ -1,9 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
 *,*:before,*:after { 
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+:focus,:active {outline: none;}
+a:focus,a:active {outline: none;}
+
+nav,footer,header,aside {display: block ;}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea {font-family: inherit;}
+
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6 {font-size: inherit; font-weight: 400;}
+
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Poppins', system-ui, Georgia, Times, 'Times New Roman', sans-serif;
     color: rgba(23, 67, 21, 0.992);
     font-size: 1.3rem;
     background-color: rgba(255, 255, 255, 0.8);
@@ -21,30 +59,35 @@ a:hover {
 
 .avatar {
   max-width: 144px;
+  margin-top: 15px;
 }
 
 .profile_links ul {
   background-color: rgba(255, 255, 255, 0.8);
   max-width: 600px;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  font-size: 1.2rem;
+  padding: 12px 15px 8px;
+  font-size: 1.3rem;
   box-shadow: 1mm 1mm 3mm 3px rgba(25, 73, 23, 0.492);
   border-radius: 14px;
   list-style: none;
   border: 1px solid rgb(238, 245, 48);
   max-width: 400px;
+  margin-bottom: 15px;
+}
+
+.profile_links li {
+  margin-bottom: 5px;
 }
 
 .hello {
   text-align: center;
   margin: auto;
   margin-bottom: 15px;
-
+  margin-top: 15px;
 }
 
 .hello > .big_head {
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 3rem;
   margin-bottom: 0;
   margin-top: 0em;
@@ -52,11 +95,13 @@ a:hover {
 
 .hello p {
   margin-top: 0em;
-  margin-bottom: 0;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
 }
 
 .hello h1 {
-  font-size: 2.2rem;
+  font-size: 3rem;
+  font-weight: bolder;
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -65,11 +110,10 @@ a:hover {
   font-weight: 600;
 }
 
-.important_link ul {
+.important_link {
   font-size: 1.5rem;
   background-color: rgba(255, 255, 255, 0.8);
-  padding-top: 5px;
-  padding-bottom: 10px;
+  padding: 8px 15px 10px;
   box-shadow: 1mm 1mm 3mm 3px rgba(25, 73, 23, 0.492);
   border-radius: 14px;
   list-style: none;
@@ -79,10 +123,9 @@ a:hover {
 
 .container {
   max-width: 1000px;
-  margin: auto;
-  margin-top: 30px;
+  margin: 30px auto;
   background-color: rgb(203, 250, 186);
-  padding: 40px 30px 30px;
+  padding: 40px 30px;
   border-radius: 16px;
   box-shadow: 0mm 0mm 15mm 3px rgb(25 73 23 / 49%);
 }
@@ -90,7 +133,8 @@ a:hover {
 .header {
   background-color: rgba(255, 255, 255, 0.8);
   color: rgba(23, 67, 21, 0.992);
-  padding: 15px 20px 0;
+  padding: 0 20px;
+  margin-bottom: 15px;
   border-radius: 16px;
   box-shadow: 1mm 1mm 3mm 3px rgba(25, 73, 23, 0.492);
   border: 1px solid rgb(238, 245, 48);
@@ -100,7 +144,7 @@ a:hover {
 
 .italic {
   font-style: italic;
-  text-decoration: underline;
+  border-bottom: 1px solid rgba(23, 67, 21, 0.282);
 }
 
 @media (max-width: 700px) {
@@ -111,3 +155,8 @@ a:hover {
   }
 }
 
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
