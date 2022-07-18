@@ -55,8 +55,6 @@
     flex: 1 1 auto;
   }
 
-  .footer {}
-
   .footer__content {
     display: flex;
     height: 40px;
