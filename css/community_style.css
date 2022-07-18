@@ -1,5 +1,15 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
   
+  @font-face {
+    font-family: "Cheque-Regular";
+    src: url("/fonts/Cheque/Cheque-Regular.otf") format("opentype");
+    }
+
+    @font-face {
+      font-family: "Cheque-Black";
+      src: url("/fonts/Cheque/Cheque-Black.otf") format("opentype");
+      }
+      
   /* STYLE RESET */
 
   *{
@@ -64,11 +74,11 @@
   }
 
   .header {
-    background-color: rgba(252, 220, 80, 0.251);
+    background-color: rgb(246, 237, 197);
     border-bottom: 1px solid rgba(146, 24, 73, 0.26); 
-    /* box-shadow: 1mm 1mm 3mm 3px rgba(146, 24, 73, 0.281); */
+    box-shadow: 0mm 0mm 12mm 0px rgba(146, 24, 73, 0.281);
     padding-top: 10px;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
     margin-bottom: 40px;
   }
 
@@ -78,8 +88,8 @@
   }
   
   .header__text p {
-    font-size: 1rem;
-    margin-top: 2px;
+    font-size: 1.2rem;
+    margin-top: 3px;
   }
 
   .header__top {
@@ -118,8 +128,8 @@
 
   body {
       font-family: 'Poppins', system-ui, Georgia, Times, 'Times New Roman', sans-serif;
-      background-color: rgba(77, 32, 7, 0.218);
-      color: #0f141e;
+      background-color: rgba(96, 62, 8, 0.118);
+      color: rgba(104, 23, 56, 0.766);
       margin: 0;
       user-select: none;
   }
@@ -149,7 +159,7 @@
   }
   
   .contact {
-    margin: 40px auto 10px;
+    margin: 40px auto;
     display: flex;
     max-width: 1200px;
     justify-content: center;
@@ -193,7 +203,7 @@
   .form_fields input,
   .form_fields textarea {
     border: none;
-    background: rgba(255, 236, 236, 0.538);
+    background: rgba(252, 252, 252, 0.538);
     padding: 5px 5px 5px;
     outline: none;
     font-family: inherit;
@@ -222,15 +232,15 @@
 
 
   .discription__text {
-    color: rgba(104, 23, 56, 0.766);
     margin: auto;
-    max-width: 900px;
+    max-width: 1200px;
     text-align: center;
     line-height: 66px;
+    font-family: Cheque-Regular;
   }
   
   .discription__text p {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .discription__text a {
