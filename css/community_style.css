@@ -1,15 +1,10 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-  
+
   @font-face {
     font-family: "Cheque-Regular";
     src: url("/fonts/Cheque/Cheque-Regular.otf") format("opentype");
     }
 
-    @font-face {
-      font-family: "Cheque-Black";
-      src: url("/fonts/Cheque/Cheque-Black.otf") format("opentype");
-      }
-      
   /* STYLE RESET */
 
   *{
@@ -168,7 +163,7 @@
 
   .contact__form h2 {
     margin: 0 0 15px;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
   }
@@ -228,8 +223,6 @@
   .form_flex > .form_fields:first-child {
     margin-right: 5px;
   }
-  
-
 
   .discription__text {
     margin: auto;
