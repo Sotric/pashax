@@ -1,9 +1,12 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
   @font-face {
-    font-family: "Cheque-Regular";
-    src: url("/fonts/Cheque/Cheque-Regular.otf") format("opentype");
-    }
+    font-family: 'Cheque';
+    src: url('../fonts/Cheque-Regular.eot');
+    src: local('☺'), url('../fonts/Cheque-Regular.woff') format('woff'), url('../fonts/Cheque-Regular.ttf') format('truetype'), url('../fonts/Cheque-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
 
   /* STYLE RESET */
 
@@ -92,18 +95,22 @@
     margin: 0 auto;
     max-width: 1200px;
     align-items: center;
+    padding: 0 15px;
+  }
+
+  .header__nav nav {
+    display: flex;
+    flex-direction: column;
   }
 
   .header__nav a {
     width: 100px;
-    height: fit-content;
+    height: 30px;
     border: 1px solid rgb(252, 220, 80);
     border-radius: 18px;
-    outline: 0;
     padding: 8px 12px;
     text-align: center;
-    text-decoration: none;
-    font: bold 12px Verdana;
+    font: bold 10px;
     color: rgba(252, 220, 80, 0.859);
     background-color: rgba(98, 21, 34, 0.715);
     transition-property: color, background-color;
@@ -112,7 +119,7 @@
   }
 
   .header__nav a:not(:last-child) {
-    margin-right: 8px;
+    margin-bottom: 3px;
   }
 
   .header__nav a:hover,
@@ -229,7 +236,8 @@
     max-width: 1200px;
     text-align: center;
     line-height: 66px;
-    font-family: Cheque-Regular;
+    font-family: Cheque;
+    padding: 0 20px;
   }
   
   .discription__text p {
